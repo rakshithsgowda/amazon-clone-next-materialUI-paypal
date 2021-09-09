@@ -7,6 +7,7 @@ const useStyles = makeStyles({
       color: '#ffffff',
       marginleft: 10,
     },
+    // spacing: 4,
   },
   brand: {
     fontWeight: 'bold',
