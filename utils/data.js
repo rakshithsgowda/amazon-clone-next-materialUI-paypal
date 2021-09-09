@@ -2,6 +2,7 @@ const data = {
   products: [
     {
       name: 'Free Shirt',
+      slug: 'free-shirt',
       category: 'Shirts',
       image: '/images/shirt1.jpg',
       price: 570,
@@ -13,6 +14,7 @@ const data = {
     },
     {
       name: 'Fit Shirt',
+      slug: 'fit-shirt',
       category: 'Shirts',
       image: '/images/shirt2.jpg',
       price: 180,
@@ -24,6 +26,7 @@ const data = {
     },
     {
       name: 'Slim Shirt',
+      slug: 'slim-shirt',
       category: 'Shirts',
       image: '/images/shirt3.jpg',
       price: 740,
@@ -35,6 +38,7 @@ const data = {
     },
     {
       name: 'Summer Pants',
+      slug: 'summer-pants',
       category: 'Pants',
       image: '/images/pants1.jpg',
       price: 790,
@@ -46,6 +50,7 @@ const data = {
     },
     {
       name: 'Loose Pants',
+      slug: 'loose-pants',
       category: 'Pants',
       image: '/images/pants2.jpg',
       price: 590,
@@ -56,7 +61,8 @@ const data = {
       description: 'A greatly  popular pant',
     },
     {
-      name: ' Pants',
+      name: 'Winter Pants',
+      slug: 'winter-pants',
       category: 'Pants',
       image: '/images/Pants3.jpg',
       price: 720,
