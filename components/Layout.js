@@ -2,12 +2,12 @@ import {
   ThemeProvider,
   AppBar,
   Container,
-  createMuiTheme,
   Link,
   Toolbar,
   Typography,
   CssBaseline,
   Switch,
+  createTheme,
 } from '@material-ui/core'
 import Head from 'next/head'
 import useStyles from '../utils/styles'
@@ -20,7 +20,7 @@ export default function Layout({ title, children, description }) {
   const { state, dispatch } = useContext(Store)
   const { darkMode } = state
 
-  const theme = createMuiTheme({
+  const theme = createTheme({
     typography: {
       h1: {
         fontSize: '1.6rem',
@@ -76,12 +76,12 @@ export default function Layout({ title, children, description }) {
 
               <NextLink href='/cart' passHref>
                 <Link>
-                  <Typography component='span'> Cart</Typography>
+                  <Typography component='span'>Cart</Typography>
                 </Link>
               </NextLink>
               <NextLink href='/login' passHref>
                 <Link>
-                  <Typography component='span'> Login</Typography>
+                  <Typography component='span'>Login</Typography>
                 </Link>
               </NextLink>
             </div>
